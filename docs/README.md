@@ -2,10 +2,10 @@
 
 ## Quién soy
 
-Soy **[Tu nombre y apellidos]**, alumno/a de 1.º del CFGS **Desarrollo de Aplicaciones Multiplataforma (DAM)** en el IES Doctor Balmis. Este sitio recoge mi trabajo del módulo **0483 Sistemas Informáticos** durante el curso 2026-2027.
+Soy **Manuel Arellano Román**, alumno de 1.º del CFGS **Desarrollo de Aplicaciones Multiplataforma (DAM)** en el IES Doctor Balmis. Este sitio recoge mi trabajo del módulo **0483 Sistemas Informáticos** durante el curso 2026-2027.
 
 - GitHub: [@Manuel456722](https://github.com/Manuel456722)
-- Contacto: tu-correo@ejemplo.com
+- Contacto: [manuelarellanoroman@gmail.com](mailto:manuelarellanoroman@gmail.com)
 
 ## Qué es este portfolio
 
