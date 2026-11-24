@@ -154,9 +154,10 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./docs
+          include-hidden-files: true
 
       - name: Deploy to GitHub Pages
         id: deployment
@@ -170,6 +171,9 @@ jobs:
 | `concurrency` | Evita dos despliegues a la vez sin cancelar el que está en curso |
 | `upload-pages-artifact` → `path: ./docs` | Empaqueta solo la carpeta del sitio (cámbialo si tu carpeta tiene otro nombre) |
 | `deploy-pages` | Publica el paquete y devuelve la URL final |
+
+> [!WARNING]
+> **Incidencia real en el primer despliegue.** Con la combinación `upload-pages-artifact@v3` + `deploy-pages@v5`, el paso *Deploy to GitHub Pages* falló con `No artifacts named "github-pages" were found for this workflow run`, aunque el artefacto sí se había subido. Lo resolví actualizando a **`upload-pages-artifact@v5`**, su versión actual. Como la v5 excluye por defecto los ficheros ocultos, añadí `include-hidden-files: true` para que `.nojekyll` también se publique.
 
 ### Paso 2. Activar GitHub Pages
 
