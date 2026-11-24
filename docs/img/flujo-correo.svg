@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <title>Recorrido de un correo: cliente origen, servidor saliente, servidor destino, cliente destino</title>
+  <rect width="900" height="170" fill="#ffffff"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1f6feb"/></marker></defs>
+  <g text-anchor="middle">
+    <g transform="translate(15,50)"><rect width="170" height="70" rx="10" fill="#eef4ff" stroke="#1f6feb"/><text x="85" y="30" font-size="15" font-weight="700" fill="#0b2f6b">Cliente origen</text><text x="85" y="52" font-size="12" fill="#333">Thunderbird / Outlook / Web</text></g>
+    <g transform="translate(250,50)"><rect width="170" height="70" rx="10" fill="#fff4e5" stroke="#d9822b"/><text x="85" y="30" font-size="15" font-weight="700" fill="#6b3a0b">Servidor saliente</text><text x="85" y="52" font-size="12" fill="#333">SMTP 465 / 587</text></g>
+    <g transform="translate(485,50)"><rect width="170" height="70" rx="10" fill="#fff4e5" stroke="#d9822b"/><text x="85" y="30" font-size="15" font-weight="700" fill="#6b3a0b">Servidor destino</text><text x="85" y="52" font-size="12" fill="#333">Buzón del receptor</text></g>
+    <g transform="translate(715,50)"><rect width="170" height="70" rx="10" fill="#eef4ff" stroke="#1f6feb"/><text x="85" y="30" font-size="15" font-weight="700" fill="#0b2f6b">Cliente destino</text><text x="85" y="52" font-size="12" fill="#333">IMAP 993 / POP3 995</text></g>
+    <g font-size="12" fill="#1f6feb">
+      <line x1="187" y1="85" x2="246" y2="85" stroke="#1f6feb" stroke-width="2" marker-end="url(#a)"/><text x="217" y="38">Envía</text><text x="217" y="152">SMTP</text>
+      <line x1="422" y1="85" x2="481" y2="85" stroke="#1f6feb" stroke-width="2" marker-end="url(#a)"/><text x="452" y="38">Transfiere</text><text x="452" y="152">SMTP 25</text>
+      <line x1="657" y1="85" x2="711" y2="85" stroke="#1f6feb" stroke-width="2" marker-end="url(#a)"/><text x="686" y="38">Sincroniza</text><text x="686" y="152">IMAP/POP3</text>
+    </g>
+  </g>
+</svg>
