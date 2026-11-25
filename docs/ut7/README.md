@@ -1,9 +1,5 @@
 # UT7 - Elaboración de documentación técnica
 
-**Objetivo:** elaborar documentación valorando y utilizando aplicaciones informáticas de propósito general.
-
-En esta unidad he trabajado las herramientas que uso a diario para documentar y comunicar el trabajo técnico: cómo elegir software con la licencia adecuada, cómo comprobar que encaja en un entorno real, cómo escribir documentación, cómo enviarla y compartirla y cómo encontrar información fiable.
-
 ## Mapa de la unidad
 
 | Página | Criterio | Procedimiento que documenta |
@@ -17,27 +13,4 @@ En esta unidad he trabajado las herramientas que uso a diario para documentar y 
 | [Proyecto: este portfolio](ut7/portfolio-docsify.md) | c) y f) | Crear, probar y publicar este sitio con Docsify y GitHub Pages |
 
 > [!TIP]
-> Todas las páginas siguen la misma plantilla: **contexto → tabla de referencia → procedimiento con comandos → avisos → comprobación**. Mantener una estructura fija es una de las reglas de la buena documentación (consistencia).
-
-## Plantilla que uso en cada página
-
-```markdown
-# Título del procedimiento
-
-Breve contexto: qué problema resuelve y cuándo se usa.
-
-## Conceptos clave
-| Concepto | Explicación |
-|---|---|
-
-## Procedimiento
-1. Paso con su comando en un bloque de código.
-
-> [!WARNING]
-> Error típico y cómo evitarlo.
-
-## Comprobación
-Cómo sé que ha funcionado.
-
-## Fuentes
-```
+> Todas las páginas siguen la misma plantilla: **contexto → tabla de referencia → procedimiento con comandos → avisos → comprobación**.

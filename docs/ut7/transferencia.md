@@ -1,6 +1,6 @@
 # 7.5 Transferencia de ficheros
 
-No existe un único "mejor" método para enviar un archivo: depende de **cuánto pesa**, de si emisor y receptor están **en la misma red**, de **cuánto tiempo** debe estar disponible y del **nivel de seguridad** que necesita. En esta página comparo los métodos y protocolos y documento cómo subir ficheros a un servidor por SSH.
+No existe un único "mejor" método para enviar un archivo: depende de **cuánto pesa**, de si emisor y receptor están **en la misma red**, de **cuánto tiempo** debe estar disponible y del **nivel de seguridad** que necesita.
 
 ## 1. Elegir el método según el escenario
 
@@ -109,10 +109,4 @@ sudo mount -t nfs 192.168.1.50:/srv/compartida /mnt/red
 7z a -p -mhe=on informe-confidencial.7z informe-ut7.pdf
 ```
 
-## Fuentes
 
-- IETF — RFC 959 (FTP), RFC 1350 (TFTP), RFC 4217 (FTPS), RFC 4251 (SSH), RFC 2045 (MIME/Base64), RFC 9110 (HTTP)
-- OpenSSH — *Release notes 9.0*; manuales `scp(1)` y `sftp(1)`
-- Ayuda de Gmail (límite de adjuntos) y Microsoft Learn (límites de Exchange Online)
-- Microsoft Learn — `net use` y SMB
-- FileZilla, WinSCP y 7-Zip — licencias y documentación oficial

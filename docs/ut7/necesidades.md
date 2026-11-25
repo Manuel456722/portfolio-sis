@@ -1,6 +1,6 @@
 # 7.2 Necesidades de software en entornos productivos
 
-Elegir software para un entorno de trabajo real no es elegir "el mejor programa", sino el que **funciona de forma fiable, encaja con lo que ya hay y cumple los requisitos legales y económicos** de la organización. En esta página documento la lista de comprobación que sigo y cómo verificar un equipo desde la terminal.
+Elegir software para un entorno de trabajo real no es elegir "el mejor programa", sino el que **funciona de forma fiable, encaja con lo que ya hay y cumple los requisitos legales y económicos** de la organización.
 
 ## 1. Qué revisar antes de elegir
 
@@ -106,11 +106,3 @@ Relleno la tabla con los datos de mi equipo y comparo con los recomendados:
 
 Si algún recurso queda justo, no basta con "cumplir": aplico la regla del margen de crecimiento.
 
-## Fuentes
-
-- Canonical — *The Ubuntu lifecycle and release cadence*
-- Debian — *Security FAQ* y *Debian LTS*
-- Microsoft Learn — ciclo de vida de Windows LTSC; `Get-ComputerInfo` y `Get-Volume`
-- EUR-Lex — Reglamento (UE) 2016/679 (RGPD), art. 32 y Capítulo V
-- ISO/IEC/IEEE 29148 e ISO/IEC 25010
-- Linux man-pages — `lscpu(1)`, `free(1)`, `df(1)`, `os-release(5)`

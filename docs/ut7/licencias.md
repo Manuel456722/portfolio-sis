@@ -1,6 +1,6 @@
 # 7.1 Clasificación y licencias de software
 
-Antes de instalar o recomendar un programa hay que responder dos preguntas: **¿para qué sirve?** (su propósito) y **¿qué me deja hacer la ley con él?** (su licencia). En esta página resumo ambas clasificaciones y documento cómo comprobar la licencia real de un programa desde la terminal.
+Antes de instalar o recomendar un programa hay que responder dos preguntas: **¿para qué sirve?** (su propósito) y **¿qué me deja hacer la ley con él?** (su licencia).
 
 ## 1. Clasificación por propósito
 
@@ -113,11 +113,3 @@ Resultado esperado al ejecutar los comandos (compáralo con la salida de tu equi
 | VLC | `winget show VideoLAN.VLC` | GPL-2.0 | ✅ |
 | 7-Zip | `winget show 7zip.7zip` | LGPL-2.1 (con partes BSD y restricción unRAR) | ✅ |
 
-## Fuentes
-
-- Free Software Foundation — *¿Qué es el software libre?*
-- Open Source Initiative — *The Open Source Definition*
-- SPDX — *SPDX License List*
-- Creative Commons — *About CC Licenses*
-- BOE — Real Decreto Legislativo 1/1996, Ley de Propiedad Intelectual (arts. 14, 26 y 98)
-- Microsoft Learn — comando `winget show`

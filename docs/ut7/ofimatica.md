@@ -1,6 +1,6 @@
 # 7.3 Documentación técnica y herramientas ofimáticas
 
-Lo que no se documenta hay que volver a investigarlo desde cero en cada incidencia o cada vez que cambia la persona responsable. Por eso documentar forma parte del trabajo técnico, no es un añadido. En esta página recojo los principios de una buena documentación, comparo las herramientas y documento cómo escribo un manual en Markdown y lo convierto a otros formatos.
+Lo que no se documenta hay que volver a investigarlo desde cero en cada incidencia o cada vez que cambia la persona responsable. Por eso documentar forma parte del trabajo técnico, no es un añadido.
 
 ## 1. Cinco reglas de una buena documentación
 
@@ -112,11 +112,3 @@ pandoc manual-instalacion.md -s -o manual-instalacion.html
 - El `.docx` abre en Word y en LibreOffice Writer con títulos, lista y tabla.
 - El `.html` abre en el navegador y el bloque de código se ve con fuente monoespaciada.
 - Para la entrega final, exporto a PDF desde Writer (*Archivo → Exportar como PDF*).
-
-## Fuentes
-
-- CommonMark Specification y GitHub Flavored Markdown Spec
-- Visual Studio Code — *Markdown editing*
-- Pandoc — *User's Guide*
-- OASIS / ISO — ODF (ISO/IEC 26300), OOXML (ISO/IEC 29500), PDF (ISO 32000)
-- Keep a Changelog 1.1.0

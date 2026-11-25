@@ -1,6 +1,6 @@
 # 7.6 Búsqueda y fiabilidad de documentación técnica
 
-Buscar "a ojo" en Google suele llevar a soluciones antiguas, de otra versión o directamente peligrosas. Un **método sistemático** sobre fuentes oficiales ahorra tiempo y evita romper el sistema. En esta página documento el flujo que sigo y lo aplico a un error real que tuve al montar este portfolio.
+Buscar "a ojo" en Google suele llevar a soluciones antiguas, de otra versión o directamente peligrosas. Un **método sistemático** sobre fuentes oficiales ahorra tiempo y evita romper el sistema.
 
 ## 1. Flujo de búsqueda en cuatro pasos
 
@@ -104,10 +104,4 @@ Siempre incluyo cuatro datos: **qué intento hacer**, **sistema operativo y vers
 | **Versión:** coincide con mi SO y mi software | **Enlaces sospechosos:** acortadores, descargas externas |
 | **Contraste:** otra fuente fiable dice lo mismo | **Atajos inseguros:** `chmod 777`, desactivar el cortafuegos, `curl … \| bash` sin leer |
 
-## Fuentes
 
-- Google Search Central — *What is Googlebot?* y operadores de búsqueda
-- Ayuda de la Búsqueda de Google — *Perfeccionar búsquedas en la Web*
-- GitHub Docs — búsqueda de incidencias y sintaxis de búsqueda de código
-- Microsoft Learn — `Get-Help`, `robocopy`, `about_Execution_Policies`
-- Linux man-pages — `man(1)`, `apropos(1)`

@@ -1,6 +1,6 @@
 # 7.4 Correo y mensajería electrónica
 
-En una empresa conviven dos formas de comunicarse: el **correo electrónico**, formal y asíncrono, y la **mensajería instantánea**, rápida y en tiempo real. En esta página explico qué protocolos hay detrás del correo, cómo configurar un cliente de forma segura y cómo comprobar desde la terminal que los puertos responden.
+En una empresa conviven dos formas de comunicarse: el **correo electrónico**, formal y asíncrono, y la **mensajería instantánea**, rápida y en tiempo real.
 
 ## 1. Correo frente a mensajería
 
@@ -101,10 +101,4 @@ Una respuesta que empieza por `* OK` (IMAP) o `250` (SMTP) indica que el servido
 
 Regla básica: **nunca** envío contraseñas en texto plano ni datos de clientes por cuentas personales; uso los canales corporativos aprobados.
 
-## Fuentes
 
-- IETF — RFC 8314, RFC 5321, RFC 6409, RFC 9051 (IMAP4rev2), RFC 1939 (POP3)
-- Microsoft Learn — Desuso de la autenticación básica en Exchange Online; `Test-NetConnection`
-- OpenSSL — `openssl-s_client`
-- RGPD (arts. 5.1.f y 32) y AEPD — Guía de notificación de brechas
-- Mozilla Public License 2.0; documentación oficial de Telegram y Signal

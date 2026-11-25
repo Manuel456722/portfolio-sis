@@ -212,11 +212,4 @@ git push -u origin main
 | Revisión en `localhost:3000` | Apartado 4 de esta página |
 | Profesor como colaborador | *Settings → Collaborators → Add people* → `mario@iesdoctorbalmis.com` |
 
-## Fuentes
 
-- Docsify — *Quick start*, *Configuration*, *Themes* y *UI Kit (callouts)*
-- docsify-cli — repositorio oficial `docsifyjs/docsify-cli`
-- pnpm — *Installation*; Node.js — descarga oficial; Microsoft Learn — `winget`
-- Microsoft Learn — `about_Execution_Policies`
-- GitHub Docs — *Publicar con un flujo de trabajo personalizado de GitHub Actions*
-- Markdown Guide — markdownguide.org
