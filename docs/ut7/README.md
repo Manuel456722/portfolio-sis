@@ -10,7 +10,6 @@
 | [7.4 Correo y mensajería](ut7/correo.md) | d) | Configurar un cliente de correo seguro y verificar sus puertos |
 | [7.5 Transferencia de ficheros](ut7/transferencia.md) | e) | Enviar ficheros a un servidor con `scp`, `sftp` y FileZilla |
 | [7.6 Búsqueda de documentación](ut7/busqueda.md) | f) | Resolver un error con un método de búsqueda en cuatro pasos |
-| [Proyecto: este portfolio](ut7/portfolio-docsify.md) | c) y f) | Crear, probar y publicar este sitio con Docsify y GitHub Pages |
 
 > [!TIP]
 > Todas las páginas siguen la misma plantilla: **contexto → tabla de referencia → procedimiento con comandos → avisos → comprobación**.
