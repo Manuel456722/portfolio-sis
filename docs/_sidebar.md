@@ -6,4 +6,3 @@
   - [7.4 Correo y mensajería](ut7/correo.md)
   - [7.5 Transferencia de ficheros](ut7/transferencia.md)
   - [7.6 Búsqueda de documentación](ut7/busqueda.md)
-  - [Proyecto: este portfolio](ut7/portfolio-docsify.md)
